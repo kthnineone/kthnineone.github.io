@@ -52,9 +52,9 @@ Divided data into odd numbered and even numbered and sample them with the size n
 ## 3. Stratified Sampling  
 Sample the data from partitioned sub-populations.  
 At first, divide the population with size N into H strata, each stratum h with size $N_h$. ${\sum_{h}}^{H}{N_h} = N$. We sample $n_h$ from each stratum h.  
-Sample mean of each stratum is defined as $$\overline{y_{\it h}} = \frac{1}{n_h}\sum_{i \in S_h}y_{hj}$$ and the se is $$s^2_{h} = \sum_{j \in S_h}\frac{{(y_{hj} - \bar{y_h})}^2}{{n_h}-1}$$.
+Sample mean of each stratum is defined as $$\overline{y_{\it h}} = \frac{1}{n_h}\sum_{i \in S_h}y_{hj}$$ and the se is {% raw %}$$s^2_{h} = \sum_{j \in S_h}\frac{{(y_{hj} - \bar{y_h})}^2}{{n_h}-1}$$. {% endraw %}
 And then $$\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$$.  
-
+#{퍼센트_기호 raw 퍼센트_기호}  `{{1}, {1,2,3}, {1,2}}` 이 있다면 `{1}`, `{1,2,3}`, `{1,2}`  {퍼센트_기호 endraw 퍼센트_기호}
 
 |Source|df|Sum of Squares|
 |---------------|-----|--------------------------------------------------------|
