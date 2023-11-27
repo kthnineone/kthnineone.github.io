@@ -31,7 +31,7 @@ Python with line numbers:
 
 !doctype, html, head, body의 네 가지 태그를 이용해 문서의 시작과 끝을 표기한다.
 
-+ <pre><html></pre> 태그: 웹 문서의 시작을 알리는 태그. 안에 사용할 언어도 표기 가능. <html lang="ko">처럼
++ <code><html></code> 태그: 웹 문서의 시작을 알리는 태그. 안에 사용할 언어도 표기 가능. <html lang="ko">처럼
 + <head> 태그: 웹 브라우저가 알아야할 정보 그리고 문서에서 사용할 외부 파일들의 링크
 + <meta> 태그: 문자 인코딩 및 문서 키워드, 요약 정보
 + <body> 태그: 실제 브라우저에 표시될 내용
