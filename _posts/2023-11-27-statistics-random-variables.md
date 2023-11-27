@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Random Variables"
+title:  "Probability Space and Random Variables"
 date:   2023-11-27 15:08:00 +0900
-categories: statistics
+categories: Statistics
 tags: random-variable
 use_math: true
 ---
@@ -25,6 +25,17 @@ $$P: F \rightarrow R$$이고 이때 $$R$$은 실수 집합이다.
 3. Normalization. P($$\Omega$$)=1.
 &nbsp;
 
+Probability Space는 Sample Space $$\Omega$$, a set of events인 $$\sigma-algebra$$, <br>
+events에 확률을 부과하는 Proability Measure인 $$P$$로 이루어진 triple ($$\Omega$$, $$\sigma-algebra$$, $$P$$)다.
+&nbsp;
+
 Probability Space는 Sample Space $$\Omega$$, a set of events인 $$\sigma-algebra$$, 
 events에 확률을 부과하는 Proability Measure인 $$P$$로 이루어진 triple ($$\Omega$$, $$\sigma-algebra$$, $$P$$)다.
 &nbsp;
+
+확률 변수 Random Variable은 Sample Space를 실수로 보내는 함수다. <br>
+$$X: \Omega \rightarrow R$$. <br>
+같은 Sample Space에 대해서 여러가지 함수를 취할 수 있다.<br>
+동전을 던지는 경우 Sample Space는 {Head, Tail}이다. <br>
+1. X(Head) = 1, X(Tail) = 0 으로 정의할 수 있다.
+2. X(Head) = -1, X(Tail) = 1 으로 정의할 수 있다.
