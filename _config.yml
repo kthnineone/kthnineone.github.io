@@ -21,6 +21,7 @@ url: "https://kthnineone.github.io"
 permalink: /:year/:month/:day/:title
 repository: kthnineone/kthnineone.github.io
 paginate: 5
+timezone: Asia/Seoul
 
 # MatJek specific configurations
 github_profile: "https://github.com/kthnineone"
