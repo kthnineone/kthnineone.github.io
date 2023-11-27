@@ -17,8 +17,8 @@ use_math: true
 |기하 분포 | Geometric Dist | $$equation$$  | |
 |음이항 분포 | Negative Binomial Dist | $$equation$$  |  |
 |초기하 분포 | Hypergeometric Dist | $$equation$$  |  |
-|유니폼 분포 | Uniform Dist | $$equation$$  |  |
-
+|유니폼 분포 | Uniform Dist | $$equation$$  |  |  
+  
 #### Continuous Distribution  
 | 이름 | Name | pdf | Notation |
 |---------------|-----|--------------------------------------------------------|---|
@@ -37,8 +37,9 @@ use_math: true
 | 제타 분포 | Zeta Dist | $$equation$$  |  |
 | 라플라시안 분포 | Laplacian Dist | $$equation$$  |  |
 | 코시 분포 | Cauchy Dist | $$equation$$  |  |
-| 유니폼 분포 | Uniform Dist | $$equation$$  |  |
+| 유니폼 분포 | Uniform Dist | $$equation$$  |  |  
+  
 {% endraw %}
 
-$$\mathbf{\alpha}$$ = ($$$$\alpha_1,...,\alpha_K$$$$)
+$$\mathbf{\alpha}$$ = ($$\alpha_1,...,\alpha_K$$)
 
