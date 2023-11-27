@@ -33,14 +33,14 @@ use_math: true
 | 감마 분포 | Gamma Dist | $$equation$$  | $$equation$$ | Gamma(k, $$\theta$$) or  Gamma($$\alpha, \beta$$)|
 | 지수 분포 | Exponential Dist | $$equation$$  | $$equation$$ | exp($$\lambda$$) |
 | 베타 분포 | Beta Dist | $$equation$$  | $$equation$$ | Beta($$\alpha, \beta$$) |
-| 와이블 분포 | Weibull Dist | $$equation$$  | Weib($$\lambda$$, k) |
-| 랭 분포 | Erlang Dist | $$equation$$  | $$equation$$ | 1 |
-| 디리클레 분포 | Dirichlet Dist | $$equation$$  | Dir($$\vec{\alpha}$$) where $$\vec{\alpha}$$ = ($$\alpha_1,...,\alpha_K$$)|
-| 파레토 분포 | Pareto Dist | $$equation$$  | $$equation$$ | 1 |
-| 제타 분포 | Zeta Dist | $$equation$$  | $$equation$$ | 1 |
-| 라플라시안 분포 | Laplacian Dist | $$equation$$  | $$equation$$ | 1 |
-| 코시 분포 | Cauchy Dist | $$equation$$  | $$equation$$ | 1 |
-| 유니폼 분포 | Uniform Dist | $$equation$$  | $$equation$$ | Unif(a,b) |  
+| 와이블 분포 | Weibull Dist | $$equation$$  | Weib($$\lambda, k$$) |
+| 랭 분포 | Erlang Dist | $$equation$$  | $$equation$$ | $$equation$$  | - |
+| 디리클레 분포 | Dirichlet Dist | $$equation$$  | $$equation$$  |Dir($$\vec{\alpha}$$) where $$\vec{\alpha}$$ = ($$\alpha_1,...,\alpha_K$$)|
+| 파레토 분포 | Pareto Dist | $$equation$$  | $$equation$$ | - |
+| 제타 분포 | Zeta Dist | $$equation$$  | $$equation$$ | - |
+| 라플라시안 분포 | Laplacian Dist | $$equation$$  | $$equation$$ | - |
+| 코시 분포 | Cauchy Dist | $$equation$$  | $$equation$$ | - |
+| 유니폼 분포 | Uniform Dist | $$equation$$  | $$equation$$ | Unif($$a,b$$) |  
   
 {% endraw %}
 
