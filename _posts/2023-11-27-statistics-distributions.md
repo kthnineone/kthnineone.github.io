@@ -15,9 +15,9 @@ use_math: true
 |다항 분포 | Multinomial Dist | $$\frac{n!}{x_1!,...,x_k!}{{p_1}^{x_1},...,{p_k}^{x_k}}$$  | Multinomial(n, $$(p_1,...,p_k)$$) |
 |포아송 분포 | Poisson Dist | $$\frac{{\lambda}^{k}}{k!}e^{-\lambda}$$  | Pois($$\lambda$$)|
 |기하 분포 | Geometric Dist | $$equation$$  | |
-|음이항 분포 | Negative Binomial Dist | $$equation$$  | 
-|초기하 분포 | Hypergeometric Dist | $$equation$$  | 
-|유니폼 분포 | Uniform Dist | $$equation$$  | 
+|음이항 분포 | Negative Binomial Dist | $$equation$$  |  |
+|초기하 분포 | Hypergeometric Dist | $$equation$$  |  |
+|유니폼 분포 | Uniform Dist | $$equation$$  |  |
 
 #### Continuous Distribution  
 | 이름 | Name | pdf | Notation |
