@@ -38,7 +38,7 @@ GPT3 같은 거대한 모델의 경우 TB 단위라서 개인이 돌리기 힘�
 
 리소스가 충분한 개인이나 집단이 아니라면 거대 모델의 Pre-trained Model을 가져와서 Fine-Tuning하거나 Transfer Learning하는 작업이 필수적이다.
 
-
+### 출처  
 패스트 캠퍼스의 [실무 사례로 배우는 컴퓨터 비전 논문 구현과 알고리즘 성능 최적화 With SOTA 모델](https://fastcampus.co.kr/data_online_sota) 강의를 듣고 정리한 내용입니다.
 
 
