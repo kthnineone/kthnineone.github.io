@@ -11,7 +11,7 @@ use_math: true
   
 | 이름 | Name | pmf | Notation |
 |---------------|-----|--------------------------------------------------------|---|
-|베르누이 분포 |Bernoulli Dist | $${p^x} q^{1-x} where q=1-p$$ | Bernoulli(p) |
+|베르누이 분포 |Bernoulli Dist | $${p^x} q^{1-x}$$ where $$q=1-p$$ | Bernoulli(p) |
 |이항 분포 |Binomial Dist | $$\binom(n,k)$$ $${p^k} q^{n-k}$$  | Bin(n, p) |
 |다항 분포 | Multinomial Dist | $$\frac{n!}{x_1!,...,x_k!}{{p_1}^{x_1},...,{p_k}^{x_k}}$$  | Multinomial(n, $$(p_1,...,p_k)$$) |
 |포아송 분포 | Poisson Dist | $$\frac{{\lambda}^{k}}{k!}e^{-\lambda}$$  | Pois($$\lambda$$)|
@@ -34,7 +34,7 @@ use_math: true
 | 베타 분포 | Beta Dist | $$equation$$  | Beta($$\alpha, \beta$$) |
 | 와이블 분포 | Weibull Dist | $$equation$$  | Weib($$\lambda$$, k) |
 | 랭 분포 | Erlang Dist | $$equation$$  | 1 |
-| 디리클레 분포 | Dirichlet Dist | $$equation$$  | Dir($$\vector{\alpha}$$) |
+| 디리클레 분포 | Dirichlet Dist | $$equation$$  | Dir($$\vec{\alpha}$$) |
 | 파레토 분포 | Pareto Dist | $$equation$$  | 1 |
 | 제타 분포 | Zeta Dist | $$equation$$  | 1 |
 | 라플라시안 분포 | Laplacian Dist | $$equation$$  | 1 |
@@ -43,5 +43,5 @@ use_math: true
   
 {% endraw %}
 
-$$\vector{\alpha}$$ = ($$\alpha_1,...,\alpha_K$$)
+$$\vec{\alpha}$$ = ($$\alpha_1,...,\alpha_K$$)
 
