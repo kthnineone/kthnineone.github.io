@@ -50,6 +50,6 @@ published: true
 # Image path setting
 defaults:
   - scope:
-      path: "assets/img"
+      path: "assets/images"
     values:
       image: true
