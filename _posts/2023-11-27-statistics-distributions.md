@@ -2,7 +2,7 @@
 layout: post
 title:  "Statistical Distributions"
 date:   2023-11-27 14:11:00 +0900
-categories: statistics
+categories: Statistics
 tags: distribution
 use_math: true
 ---

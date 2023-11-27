@@ -41,3 +41,4 @@ CoAtNet-7 같은 경우 약 45 GB가 넘어서 RTX 4090으로도 돌리기 힘�
 GPT3 같은 거대한 모델의 경우 TB 단위라서 개인이 돌리기 힘들다. 심지어 개인 워크스테이션으로 RTX A6000 D6 48 GB를 4개를 써도 불가능하다.  
 
 리소스가 충분한 개인이나 집단이 아니라면 거대 모델의 Pre-trained Model을 가져와서 Fine-Tuning하거나 Transfer Learning하는 작업이 필수적이다.
+
