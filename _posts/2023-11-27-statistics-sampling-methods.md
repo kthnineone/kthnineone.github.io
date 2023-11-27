@@ -54,14 +54,14 @@ Sample the data from partitioned sub-populations.
 At first, divide the population with size N into H strata, each stratum h with size $N_h$. ${\sum_{h}}^{H}{N_h} = N$. We sample $n_h$ from each stratum h.  
 Sample mean of each stratum is defined as $$\overline{y_{\it h}} = \frac{1}{n_h}\sum_{i \in S_h}y_{hj}$$ and the se is {% raw %}$$s^2_{h} = \sum_{j \in S_h}\frac{{(y_{hj} - \bar{y_h})}^2}{{n_h}-1}$$. {% endraw %}
 And then $$\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$$.  
-#{퍼센트_기호 raw 퍼센트_기호}  `{{1}, {1,2,3}, {1,2}}` 이 있다면 `{1}`, `{1,2,3}`, `{1,2}`  {퍼센트_기호 endraw 퍼센트_기호}
 
+{% raw %}
 |Source|df|Sum of Squares|
 |---------------|-----|--------------------------------------------------------|
 |Between strata|H-1| $$SSB$ $$= {\sum_{h=1}}^{H} {\sum_{j=1}}^{N_h}$$ $$({\bar{y}_{hU}} - \bar{{y}_U})^2$$ |
-|Within strata|N-H| $$SSW$ $$= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$$ $$(\bar{y}}_{hj} - {\bar{y}}_{hU})^2$$ |
+|Within strata|N-H| $$SSW$ $$= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$$ $$(\bar{y}_{hj} - {\bar{y}}_{hU})^2$$ |
 |Total|N-1| $$SST$$ $$= {\sum_{h=1}}^{H}$$ $${\sum_{j=1}}^{N_h}$$ $$({\bar{y}_{hj}} - {\bar{y}_{U}})^2$$ |  
-
+{% endraw %}
  
 If SSB < ${\sum_{h=1}}^{H}(1- \frac{N_h}{N})S_h^2$, then Stratified Sampling always has smaller variance than SRS.
 
