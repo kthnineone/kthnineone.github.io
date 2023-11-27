@@ -19,9 +19,9 @@ $$\sigma-algebra F$$는 다음 세가지를 만족하는 a collection of sets in
 &nbsp;
 
 Probability Measure $$P$$는 다음의 공리를 가진다.  
-$$P: F \rightarrow R$$  
+$$P: F \rightarrow R$$이고 이때 $$R$$은 실수 집합이다.  
 1. Non-negative. P($$S$$) $$\geq$$ 0 for any event $$S \in F$$. 
-2. $$\sigma-additive$$. If the sets $$S_1, ...,... S_n, \in F$$ are disjoint to each other, then P($$\cup S_i$$)=$$\Sigma P\(S_i\)$$.
+2. $$\sigma-additive$$. If the sets $$S_1, ...,... S_n, \in F$$ are disjoint to each other, then $$P(\cup S_i$$)=$$\Sigma P(S_i)$$.
 3. Normalization. P($$\Omega$$)=1.
 &nbsp;
 
