@@ -9,17 +9,17 @@ use_math: true
 {% raw %}
 #### Discrete Distribution  
   
-| 이름 | Name | pmf | Notation |
+| 이름 | Name | pmf | Notation | 사용예시 |
 |---------------|-----|--------------------------------------------------------|---|
-|베르누이 분포 |Bernoulli Dist | $${p^x} q^{1-x}$$ where $$q=1-p$$ | Bernoulli($$p$$) |
-|이항 분포 |Binomial Dist | $$\binom{n}{k}$$ $${p^k} q^{n-k}$$  | Bin($$n, p$$) |
-|다항 분포 | Multinomial Dist | $$\frac{n!}{x_1!,...,x_k!}{{p_1}^{x_1},...,{p_k}^{x_k}}$$  | Multinomial($$n$$, $$(p_1,...,p_k)$$) |
-|포아송 분포 | Poisson Dist | $$\frac{{\lambda}^{k}}{k!}e^{-\lambda}$$  | Pois($$\lambda$$)|
-|기하 분포 $$k$$ 시도 | Geometric Dist with $$k$$ Trials| $${(1-p)^k}p$$ | - |
-|기하 분포 $$k$$ 실패 | Geometric Dist with $$k$$ Failures| $$(1-p)^{k-1} p$$  | - |
-|음이항 분포 | Negative Binomial Dist | $$\binom{k+r-1}{k}$$ $$(1-p)^k p^r$$   | NB($$r, p$$) |
-|초기하 분포 | Hypergeometric Dist | $$\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$  | - |
-|유니폼 분포 | Uniform Dist | $$\frac{1}{n}$$ where $$n=b-a+1$$ | Unif($$a,b$$) |  
+|베르누이 분포 |Bernoulli Dist | $${p^x} q^{1-x}$$ where $$q=1-p$$ | Bernoulli($$p$$) | 동전을 한 번 던진다. |
+|이항 분포 |Binomial Dist | $$\binom{n}{k}$$ $${p^k} q^{n-k}$$  | Bin($$n, p$$) | 같은 동전을 순차적으로 n번 던진다. |
+|다항 분포 | Multinomial Dist | $$\frac{n!}{x_1!,...,x_k!}{{p_1}^{x_1},...,{p_k}^{x_k}}$$  | Multinomial($$n$$, $$(p_1,...,p_k)$$) | 주사위를 n번 던진다. |
+|포아송 분포 | Poisson Dist | $$\frac{{\lambda}^{k}}{k!}e^{-\lambda}$$  | Pois($$\lambda$$)| 단위 시간 동안 발생하는 사건의 수 |
+|기하 분포 $$k$$ 시도 | Geometric Dist with $$k$$ Trials| $${(1-p)^k}p$$ | - | k번 시도해서 처음 성공할 확률 |
+|기하 분포 $$k$$ 실패 | Geometric Dist with $$k$$ Failures| $$(1-p)^{k-1} p$$  | - | 첫 성공까지 k번 실패할 확률 |
+|음이항 분포 | Negative Binomial Dist | $$\binom{k+r-1}{k}$$ $$(1-p)^k p^r$$   | NB($$r, p$$) | r번째 성공까지 k번 실패할 확률 |
+|초기하 분포 | Hypergeometric Dist | $$\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$  | - | 비복원추출에서 N개 중에 n번 추출했을 때 원하는 것 k개가 뽑힐 확률의 분포 |
+|유니폼 분포 | Uniform Dist | $$\frac{1}{n}$$ where $$n=b-a+1$$ | Unif($$a,b$$) | 동전 던지기나 주사위 던지기 |
     
 #### Continuous Distribution  
   
