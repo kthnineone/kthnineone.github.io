@@ -7,7 +7,7 @@ tags: random-variable
 use_math: true
 ---
 
-Outcome은 가능한 사건이다.<br>
+__Outcome__은 가능한 사건이다.<br>
 Event는 일어난 사건이다.<br>
 Experiment or Trial은 outcome을 반복해서 뽑는 행위다.<br>  
 &nbsp;
