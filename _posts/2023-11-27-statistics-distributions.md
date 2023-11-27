@@ -19,7 +19,7 @@ use_math: true
 |기하 분포 $$k$$ 실패 | Geometric Dist with $$k$$ Failures| $$(1-p)^{k-1} p$$  | - |
 |음이항 분포 | Negative Binomial Dist | $$\binom{k+r-1}{k}$$ $$(1-p)^k p^r$$   | NB($$r, p$$) |
 |초기하 분포 | Hypergeometric Dist | $$\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$  | - |
-|유니폼 분포 | Uniform Dist | $$\frac{1}{n}$$ where $$n=b-a+1$4 | Unif($$a,b$$) |  
+|유니폼 분포 | Uniform Dist | $$\frac{1}{n}$$ where $$n=b-a+1$$ | Unif($$a,b$$) |  
     
 #### Continuous Distribution  
   
