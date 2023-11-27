@@ -13,7 +13,7 @@ use_math: true
 
 <div align="center">
   <img src="asset/images/Memory_requirements_0.PNG" title="Precision and fp", alt="Precision and fp">
-</div>"
+</div>
 
 fp32는 32bit floating point로 Exponent 8 bits와 Mantissa 23 bits가 있다. 나머지 1 bit는 sign으로 양수와 음수를 나타낸다.  
 fp16은 16bit로 Exponent가 5 bits, Mantissa가 10 bits, 1 bit가 sign이다.  
@@ -22,7 +22,7 @@ Optimizer가 아닌 파트는 fp16으로 나타내는 mixed precision을 사용�
 
 <div align="center">
   <img src="asset/images/Memory_requirements_1.PNG" title="AlexNet Memory Requirement", alt="AlexNet Memory Requirement">
-</div>"
+</div>
 
 Conv-1의 경우 11x11x3x96 = 34,848, 그리고 새로이 변환된 Channel의 개수만큼인 96개의 biases가 추가되어 34,944개의 Parameters를 가진다.  
 계산해보면 1.25 GB + $$\alpha$$만큼의 용량이 필요하다.  
@@ -35,7 +35,7 @@ Optimize State의 크기 = 4 x Parameter의 크기다. <br>
 
 <div align="center">
   <img src="asset/images/Memory_requirements_2.PNG" title="AlexNet Memory Requirement", alt="AlexNet Memory Requirement">
-</div>"
+</div>
 AlexNet 같은 경우 4 GB도 안되는 작은 용량이지만, 
 CoAtNet-7 같은 경우 약 45 GB가 넘어서 RTX 4090으로도 돌리기 힘들어지며, 
 GPT3 같은 거대한 모델의 경우 TB 단위라서 개인이 돌리기 힘들다. 심지어 개인 워크스테이션으로 RTX A6000 D6 48 GB를 4개를 써도 불가능하다.  
