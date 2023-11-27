@@ -14,7 +14,7 @@ use_math: true
 <div align="center">
   <img src="./assets/images/Memory_requirements_0.PNG" title="Precision and fp" alt="Precision and fp">
 </div>
-- ![Precision and fp]("/assets/images/Memory_requirements_0.PNG")
+- ![Image Alt 텍스트]({{site.url}}/assets/images/Memory_requirements_0.PNG )
 
 fp32는 32bit floating point로 Exponent 8 bits와 Mantissa 23 bits가 있다. 나머지 1 bit는 sign으로 양수와 음수를 나타낸다.  
 fp16은 16bit로 Exponent가 5 bits, Mantissa가 10 bits, 1 bit가 sign이다.  
