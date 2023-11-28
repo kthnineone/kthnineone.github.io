@@ -6,8 +6,10 @@ categories: Statistics
 tags: distribution
 use_math: true
 ---
+다양한 discrete disributions와 continuous distributions의 이름과 Notation, pmf와 cdf, pdf, 사용 예시를 정리해보았다.  
+
 {% raw %}
-#### Discrete Distribution  
+#### Discrete Distribution (이산형 분포)  
   
 | 이름 | Name | pmf | Notation | 사용예시 |
 |---------------|-----|--------------------------------------------------------|---|
@@ -21,7 +23,7 @@ use_math: true
 |초기하 분포 | Hypergeometric Dist | $$\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$  | - | 비복원추출에서 N개 중에 n번 추출했을 때 원하는 것 k개가 뽑힐 확률의 분포 |
 |유니폼 분포 | Uniform Dist | $$\frac{1}{n}$$ where $$n=b-a+1$$ | Unif($$a,b$$) | 동전 던지기나 주사위 던지기 |
     
-#### Continuous Distribution  
+#### Continuous Distribution (연속형 분포)  
   
 | 이름 | Name | cdf | pdf | Notation |
 |---------------|-----|--------------------------------------------------------|---|
