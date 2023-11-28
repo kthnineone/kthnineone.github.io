@@ -27,7 +27,7 @@ $$\sigma-algebra$$ $$F$$는 다음 세가지를 만족하는 a collection of set
 
 #### Probability Measure  
 <b>Probability Measure</b> $$P$$는 다음의 공리를 만족해야 한다.  
-$$P: F \rightarrow \mathbb{R}$$이고 이때 $$R$$은 실수 집합이다.  
+$$P: F \rightarrow \mathbb{R}$$이고 이때 $$\mathbb{R}$$은 실수 집합이다.  
 1. Non-negative. P($$S$$) $$\geq$$ 0 for any event $$S \in F$$. 
 2. $$\sigma-additive$$. If the sets $$S_1, ...,... S_n, \in F$$ are disjoint to each other, then $$P(\cup S_i$$)=$$\Sigma P(S_i)$$.
 3. Normalization. P($$\Omega$$)=1.  
@@ -46,7 +46,7 @@ events에 확률을 부과하는 Proability Measure인 $$P$$로 이루어진 tri
 
 #### Random Variable  
 <b>확률 변수 Random Variable</b>은 Sample Space를 실수로 보내는 함수다. <br>
-$$X: \Omega \rightarrow R$$. <br>
+$$X: \Omega \rightarrow \mathbb{R}$$. <br>
 같은 Sample Space에 대해서 여러가지 함수를 취할 수 있다.<br>
 동전을 던지는 경우 Sample Space는 {Head, Tail}이다. <br>
 1. X(Head) = 1, X(Tail) = 0 으로 정의할 수 있다.
