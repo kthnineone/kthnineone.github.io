@@ -6,7 +6,9 @@ categories: Statistics
 tags: distribution
 use_math: true
 ---
-다양한 discrete disributions와 continuous distributions의 이름과 Notation, pmf와 cdf, pdf, 사용 예시를 정리해보았다.  
+다양한 discrete disributions와 continuous distributions의 이름과 Notation, pmf와 cdf, pdf, 사용 예시를 정리해보았다. <br>
+<br>  
+<br>  
 
 {% raw %}
 #### Discrete Distribution (이산형 분포)  
