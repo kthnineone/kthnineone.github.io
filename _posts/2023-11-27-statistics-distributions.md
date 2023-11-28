@@ -30,8 +30,8 @@ use_math: true
   
 | 이름 | Name | cdf | pdf | Notation |
 |---------------|-----|--------------------------------------------------------|---|
-| 정규(가우시안) 분포 | Normal (Gaussian) Dist | $$\Pi(\frac{x - \mu}{sigma})$$ | $$\frac{1}{\sigma \sqrt{2\pi}}\exp^{\frac{1}{2}{(\frac{x - \mu}{sigma})}^2}$$ | N($$\mu, \sigma^2$$) |
-| 표준 정규 분포 |S tandard Normal Dist | $$equation$$  | $$equation$$ | N(0, 1) |
+| 정규(가우시안) 분포 | Normal (Gaussian) Dist | $$\Phi(\frac{x - \mu}{\sigma})$$ | $$\frac{1}{\sigma \sqrt{2\pi}}\exp^{-\frac{1}{2}{(\frac{x - \mu}{\sigma})}^2}$$ | N($$\mu, \sigma^2$$) |
+| 표준 정규 분포 |Standard Normal Dist | $$\Phi(x)$$ | $$\frac{1}{\sqrt{2\pi}}\exp^{-\frac{1}{2} x^2}$$ | N(0, 1) |
 | 티 분포 | t-Dist | $$equation$$  | $$equation$$ | t($$\nu$$) |
 | 카이제곱 분포 | Chi-squared ($$\chi^{2}$$) Dist | $$equation$$  | $$equation$$ | $$\chi^{2}(k)$$ |
 | 에프 분포 | F-Dist | $$equation$$  | $$equation$$ | F($$d_1, d_2$$) |
