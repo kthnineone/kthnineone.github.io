@@ -51,11 +51,12 @@ use_math: true
 | 라플라시안 분포 | Laplacian Dist | $$equation$$  | $$equation$$ | - |
 | 코시 분포 | Cauchy Dist | $$equation$$  | $$equation$$ | - |
 | 유니폼 분포 | Uniform Dist | $$equation$$  | $$\frac{1}{b-a}$$ | Unif($$a,b$$) |  
-  
+
 {% endraw %}  
 
 <br>
 $$\Gamma(\alpha)$$ if gamma function. For all positive integers, $$\Gamma(\alpha)=(\alpha-1)!$$.  
+For real number $$z$$, $$\Gamma(z)=int_{0}^{\infty} t^{z-1} e^{-t} dt$$.  
 <br>
 Incomplete gamma function:  
 The upper incomplete gamma function is defined as:  
