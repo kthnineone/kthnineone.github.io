@@ -37,7 +37,7 @@ use_math: true
 | 에프 분포 | F-Dist | $$equation$$  | $$equation$$ | F($$d_1, d_2$$) |
 | 감마 분포 | Gamma Dist | $$equation$$  | $$equation$$ | Gamma(k, $$\theta$$) or  Gamma($$\alpha, \beta$$)|
 | 지수 분포와 레이트 모수 | Exponential Dist with Rate Parameter | $$1 - e^{-\lambda x}$$  | $$\lambda e^{-\lambda x}$$ | exp($$\lambda$$) |
-| 지수 분포와 스케일 모수 | Exponential Dist with Scale Parameter | $$equation$$  | $$equation$$ | exp($$\theta$$) |
+| 지수 분포와 스케일 모수 | Exponential Dist with Scale Parameter | $$1 - e^{-\frac{x}{\theta}}$$  | $$\frac{1}{\theta} e^{-\frac{x}{\theta}}$$ | exp($$\theta$$) |
 | 베타 분포 | Beta Dist | $$equation$$  | $$equation$$ | Beta($$\alpha, \beta$$) |
 | 와이블 분포 | Weibull Dist | $$equation$$  | $$equation$$  | Weib($$\lambda, k$$) |
 | 랭 분포 | Erlang Dist | $$equation$$  | $$equation$$  | - |
