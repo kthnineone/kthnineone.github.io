@@ -23,12 +23,12 @@ use_math: true
 |기하 분포 $$k$$번 시도 | Geometric Dist with $$k$$ Trials| $$(1-p)^{k-1} p$$  | - | 첫 성공까지 k번 실패할 확률 |
 |음이항 분포 | Negative Binomial Dist | $$\binom{k+r-1}{k}$$ $$(1-p)^k p^r$$   | NB($$r, p$$) | r번째 성공까지 k번 실패할 확률 |
 |초기하 분포 | Hypergeometric Dist | $$\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$  | - | 비복원추출에서 N개 중에 n번 추출했을 때 원하는 것 k개가 뽑힐 확률의 분포 |
-|유니폼 분포 | Uniform Dist | $$\frac{1}{b-a+1}$$ | Unif($$a,b$$) | 동전 던지기나 주사위 던지기 |
+|유니폼 분포 | Uniform Dist | $$\frac{1}{b-a+1}$$ | Unif($$a,b$$) | 동전 던지기나 주사위 던지기 |  
 <br>
 <br>
 <br>
 <br>  
-
+  
 #### Continuous Distribution (연속형 분포)  
   
 | 이름 | Name | cdf | pdf | Notation |
@@ -50,8 +50,8 @@ use_math: true
 | 제타 분포 | Zeta Dist | $$equation$$  | $$equation$$ | - |
 | 라플라시안 분포 | Laplacian Dist | $$equation$$  | $$equation$$ | - |
 | 코시 분포 | Cauchy Dist | $$equation$$  | $$equation$$ | - |
-| 유니폼 분포 | Uniform Dist | $$equation$$  | $$\frac{1}{b-a}$$ | Unif($$a,b$$) |  
-
+| 유니폼 분포 | Uniform Dist | $$equation$$  | $$\frac{1}{b-a}$$ | Unif($$a,b$$) |   
+  
 {% endraw %}  
 
 <br>
