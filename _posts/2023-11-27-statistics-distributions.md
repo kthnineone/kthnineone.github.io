@@ -42,7 +42,7 @@ use_math: true
 | 지수 분포와 스케일 모수 | Exponential Dist with Scale Parameter | $$1 - e^{-\frac{x}{\theta}}$$  | $$\frac{1}{\theta} e^{-\frac{x}{\theta}}$$ | Exp($$\theta$$) |
 | 감마 분포와 쉐이프, 스케일 모수 | Gamma Dist with Shape and Scale Parms| $$\frac{1}{\Gamma(\alpha)} \gamma(\alpha, \frac{x}{\theta})$$ | $$\frac{\beta ^ \alpha}{\Gamma(\alpha)}x^{\alpha - 1}e^{-x/\theta}$$ | Gamma($$k, \theta$$)|
 | 감마 분포와 쉐이프, 레이트 모수 | Gamma Dist with Shape and Rate Parms | $$\frac{1}{\Gamma(\alpha)} \gamma(\alpha, \beta x)$$ | $$\frac{\beta ^ \alpha}{\Gamma(\alpha)}x^{\alpha - 1}e^{-\beta x}$$ | Gamma($$\alpha, \beta$$)|
-| 베타 분포 | Beta Dist | $$equation$$  | $$equation$$ | Beta($$\alpha, \beta$$) |
+| 베타 분포 | Beta Dist | $$\frac{B(x;\alpha, \beta)}{B(\alpha, \beta)}$$ | $$\frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha, \beta)}$$ | Beta($$\alpha, \beta$$) |
 | 와이블 분포 | Weibull Dist | $$equation$$  | $$equation$$  | Weib($$\lambda, k$$) |
 | 랭 분포 | Erlang Dist | $$equation$$  | $$equation$$  | - |
 | 디리클레 분포 | Dirichlet Dist | $$equation$$  | $$equation$$  |Dir($$\vec{\alpha}$$) where $$\vec{\alpha}$$ = ($$\alpha_1,...,\alpha_K$$)|
@@ -67,6 +67,15 @@ The upper incomplete gamma function is defined as:
 $$\Gamma(s, x)=\int_{x}^{\infty} t^{s-1} e^{-t} dt$$  
 The lower incomplete gamma function is defined as:  
 $$\gamma(s, x)=\int_{0}^{x} t^{s-1} e^{-t} dt$$  
+<br>
+
+Beta Function 
+$$B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$$.  
+Incomplete Beta Function  
+$$B(x;\alpha, \beta) = \int_{0}^{x} t^{\alpha-1}(1-t)^{\beta-1} dt$$.  
+<br>
+
+
 
 <br>
 
