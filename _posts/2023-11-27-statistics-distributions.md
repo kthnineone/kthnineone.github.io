@@ -58,19 +58,23 @@ use_math: true
 
 ##### Notations  
 
-$$\Gamma(\alpha)$$ if gamma function. For all positive integers, $$\Gamma(\alpha)=(\alpha-1)!$$.  
+$$\Gamma(\alpha)$$ is gamma function.  
+For all positive integers, $$\Gamma(\alpha)=(\alpha-1)!$$.  
 For real number $$z$$, $$\Gamma(z) = \int_{0}^{\infty} t^{z-1} e^{-t} dt$$.  
 <br>
 
 Incomplete gamma function:  
+  
 The upper incomplete gamma function is defined as:  
 $$\Gamma(s, x)=\int_{x}^{\infty} t^{s-1} e^{-t} dt$$  
+  
 The lower incomplete gamma function is defined as:  
 $$\gamma(s, x)=\int_{0}^{x} t^{s-1} e^{-t} dt$$  
 <br>
 
 Beta Function 
 $$B(\alpha, \beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$$.  
+  
 Incomplete Beta Function  
 $$B(x;\alpha, \beta) = \int_{0}^{x} t^{\alpha-1}(1-t)^{\beta-1} dt$$.  
 <br>
