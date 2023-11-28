@@ -7,7 +7,7 @@ tags: sampling srs systematic-sampling stratified-sampling cluster-sampling
 use_math: true
 ---
 
-# Four Sampling Methods for A/B Test
+### Four Sampling Methods for A/B Test
 
 Four sampling methods are presented.
 SRS (Simple Random Sampling), Stratified Sampling, Cluster Sampling, Systematic Sampling.  
@@ -28,7 +28,7 @@ Required Packages
 It is inspired by Sharon L. Lohr, Sampling: Design and Analyis, 2nd edition, 2009, Routledge. Also Wikipedia is another reference.
 
 
-## 1. SRS (Simple Random Sampling)
+#### 1. SRS (Simple Random Sampling)
 
 
 Samples of size n are chosen from the population with the same chance.  
@@ -43,13 +43,13 @@ The coefficient of variation (CV) is defined as $$\frac{\sqrt{V(\bar{y})}}{E(\ba
 Sampling weight $$\pi_i$$ is defined as the probility that unit $$i$$ is included in the sample which is the reciprocal of the inclusion probability: $$w_i=\frac{1}{\pi_i}$$.  
 <br>  
 
-## 2. Systematic Sampling  
+#### 2. Systematic Sampling  
 Sample the units by the sampling interval k. For example, starting number is 34, and the interval is 1000, and then the sample numbers are 34, 1034, 2034,... and so on. 
 
-### 2.1. Binary Sampling
+##### 2.1. Binary Sampling
 Divided data into odd numbered and even numbered and sample them with the size n. It is not optimal but simple.
 
-## 3. Stratified Sampling  
+#### 3. Stratified Sampling  
 Sample the data from partitioned sub-populations.  
 At first, divide the population with size N into H strata, each stratum h with size $$N_h$$. $${\sum_{h}}^{H}{N_h} = N$$. We sample $$n_h$$ from each stratum h.  
 Sample mean of each stratum is defined as $$\overline{y_{\it h}} = \frac{1}{n_h}\sum_{i \in S_h}y_{hj}$$ and the se is {% raw %}$$s^2_{h} = \sum_{j \in S_h}\frac{{(y_{hj} - \bar{y_h})}^2}{{n_h}-1}$$. {% endraw %}
@@ -66,7 +66,7 @@ And then $$\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$$.
 If SSB < $${\sum_{h=1}}^{H}(1- \frac{N_h}{N})S_h^2$$, then Stratified Sampling always has smaller variance than SRS.
 
 
-## 4. Cluster Sampling  
+#### 4. Cluster Sampling  
 The population is divied into several clusters. Then, we choose few clusters, and use all the units in the clusters as samples or sample again from chosen clusters.  
 First process is called 'one-stage' cluster sampling plan, and second is called 'two-stage' cluster sampling plan.  
 The Clusters are also called Primary Sampling Units (psu), and the each unit in each cluster is called Secondary Sampling Units (ssu).  
@@ -101,11 +101,16 @@ Estimated total for psu $$i$$ is defined as $$\hat{t_i} = \sum_{j \in S_i}\frac{
 Hence, the sample weight for each element is $$w_{ij} = \frac{NM_i}{nm_i}$$.  
 
 {% raw %}
-## Sample Size Estimation  
+#### Sample Size Estimation  
 1. Specify the Tolerable Error  
 $$P(|\bar{y}-\overline{y_U}|\leq e) = 1 - \alpha$$, where $$\overline{y_U}$$ is the population mean,  
 $$e$$ is called margin of error in survey, usually 0.03, and significance level $$\alpha$$, usaully 0.05.  
+<br>  
+
 2. Find an Equation  
 Here we get the equation: n = $$\frac{{z_{\alpha/2}^2}{S^2}}{{e^2}+\frac{{z_{\alpha/2}^2}{S^2}}{N}}$$.  
 Here $$S^2 = \hat{p}(1-\hat{p})$$ where $$\hat{p}$$ is the estimated proportion. Since the maximum value of $$\hat{p}(1-\hat{p})$$ is 1/4, we can subsitute $$S^2$$ as 1/4.  Furthermore, if we do not know population size N, the equation become n = $$\frac{{z_{\alpha/2}^2}{S^2}}{{e^2}}$$. In more simple version, n = $$\frac{{z_{\alpha/2}^2}{\hat{p}(1-\hat{p})}}{{e^2}}$$.
 {% endraw %}
+  
+<br>  
+  
