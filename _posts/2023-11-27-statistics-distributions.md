@@ -30,7 +30,7 @@ use_math: true
   
 | 이름 | Name | cdf | pdf | Notation |
 |---------------|-----|--------------------------------------------------------|---|
-| 정규(가우시안) 분포 | Normal (Gaussian) Dist | $$equation$$ | $$\frac{1}{\sigma \sqrt{2\pi}}\exp^{\frac{1}{2}(\frac{x - \mu}{sigma}})^2$$ | N($$\mu, \sigma^2$$) |
+| 정규(가우시안) 분포 | Normal (Gaussian) Dist | $$\Pi(\frac{x - \mu}{sigma})$$ | $$\frac{1}{\sigma \sqrt{2\pi}}\exp^{\frac{1}{2}{(\frac{x - \mu}{sigma})}^2}$$ | N($$\mu, \sigma^2$$) |
 | 표준 정규 분포 |S tandard Normal Dist | $$equation$$  | $$equation$$ | N(0, 1) |
 | 티 분포 | t-Dist | $$equation$$  | $$equation$$ | t($$\nu$$) |
 | 카이제곱 분포 | Chi-squared ($$\chi^{2}$$) Dist | $$equation$$  | $$equation$$ | $$\chi^{2}(k)$$ |
