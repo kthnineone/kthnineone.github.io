@@ -12,6 +12,8 @@ use_math: true
 <b>Event</b>는 일어난 사건이다.<br>
 <b>Experiment or Trial</b>은 outcome을 반복해서 뽑는 행위다.<br>  
 
+
+
 #### Sample Space  
 $$\Omega$$는 Sample Space로 정의한다. 이는 가능한 모든 Outcome의 집합이다. <br>  
 $$\sigma-algebra$$ $$F$$는 다음 세가지를 만족하는 a collection of sets in $$\Omega$$다.<br>  
@@ -20,6 +22,7 @@ $$\sigma-algebra$$ $$F$$는 다음 세가지를 만족하는 a collection of set
 3. $$\Omega$$ $$\in$$ $$F$$.  
 <br>
 <br>
+
 
 
 #### Probability Measure  
@@ -38,6 +41,7 @@ $$P: F \rightarrow R$$이고 이때 $$R$$은 실수 집합이다.
 events에 확률을 부과하는 Proability Measure인 $$P$$로 이루어진 triple ($$\Omega$$, $$\sigma-algebra$$, $$P$$)다.
 &nbsp;
 <br>
+
 
 
 #### Random Variable  
