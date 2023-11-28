@@ -27,8 +27,8 @@ Conv-1의 경우 11x11x3x96 = 34,848,
 계산해보면 1.25 GB + $$\alpha$$만큼의 용량이 필요하다.  
 
 총 메모리 할당 크기 = Parameter의 메모리 크기 + Gradient의 메모리 크기 + Activation의 메모리 크기 + Optimize State의 메모리 크기 + $$\alpha$$.<br>
-이때, Parameter의 크기 = Gradient의 크기 = Optimize State의 Parameter의 크기 = Optimize State의 Gradient의 크기 = Momentum의 크기 = Variance의 크기이므로, 
-Optimize State의 크기 = 4 x Parameter의 크기다. <br>
+이때, Parameter의 크기 = Gradient의 크기 = Optimize State의 Parameter의 크기 = Optimize State의 Gradient의 크기 <br> 
+= Momentum의 크기 = Variance의 크기이므로, Optimize State의 크기 = 4 x Parameter의 크기다. <br>  
 따라서, Parameter의 크기 x 2 bytes + Gradient의 크기 x 2 bytes + Optimize State의 크기 x 4 bytes + Activation의 크기 x 4 bytes <br>
 = Parameter의 크기 x 4 bytes + Activation의 크기 x 4 bytes.
 
