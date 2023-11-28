@@ -9,7 +9,7 @@ use_math: true
 다양한 discrete disributions와 continuous distributions의 이름과 Notation, pmf 혹은 cdf, pdf, 사용 예시를 정리해보았다. <br>
 <br>  
 <br>  
-
+  
 {% raw %}
 #### Discrete Distribution (이산형 분포)  
   
@@ -24,9 +24,10 @@ use_math: true
 |음이항 분포 | Negative Binomial Dist | $$\binom{k+r-1}{k}$$ $$(1-p)^k p^r$$   | NB($$r, p$$) | r번째 성공까지 k번 실패할 확률 |
 |초기하 분포 | Hypergeometric Dist | $$\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$$  | - | 비복원추출에서 N개 중에 n번 추출했을 때 원하는 것 k개가 뽑힐 확률의 분포 |
 |유니폼 분포 | Uniform Dist | $$\frac{1}{b-a+1}$$ | Unif($$a,b$$) | 동전 던지기나 주사위 던지기 |  
-<br>
-<br>
-<br>
+  
+<br>  
+<br>  
+<br>  
 <br>  
   
 #### Continuous Distribution (연속형 분포)  
@@ -56,7 +57,7 @@ use_math: true
 
 <br>
 $$\Gamma(\alpha)$$ if gamma function. For all positive integers, $$\Gamma(\alpha)=(\alpha-1)!$$.  
-For real number $$z$$, $$\Gamma(z)=int_{0}^{\infty} t^{z-1} e^{-t} dt$$.  
+For real number $$z$$, $$\Gamma(z) = \int_{0}^{\infty} t^{z-1} e^{-t} dt$$.  
 <br>
 Incomplete gamma function:  
 The upper incomplete gamma function is defined as:  
