@@ -28,7 +28,6 @@ use_math: true
 <br>  
 <br>  
 <br>  
-<br>  
   
 #### Continuous Distribution (연속형 분포)  
   
@@ -65,9 +64,9 @@ For real number $$z$$, $$\Gamma(z) = \int_{0}^{\infty} t^{z-1} e^{-t} dt$$.
 
 Incomplete gamma function:  
 The upper incomplete gamma function is defined as:  
-$\Gamma(s, x)=\int_{x}^{\infty} t^{s-1} e^{-t} dt$$  
+$$\Gamma(s, x)=\int_{x}^{\infty} t^{s-1} e^{-t} dt$$  
 The lower incomplete gamma function is defined as:  
-$\gamma(s, x)=\int_{0}^{x} t^{s-1} e^{-t} dt$$  
+$$\gamma(s, x)=\int_{0}^{x} t^{s-1} e^{-t} dt$$  
 
 <br>
 
