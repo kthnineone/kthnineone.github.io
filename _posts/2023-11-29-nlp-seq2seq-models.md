@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NLP Seq2Seq Models"
-date:   2023-11-27 15:31:00 +0900
+date:   2023-11-29 00:11:00 +0900
 categories: NLP DeepLearning
 tags: nlp seq2seq pre-trained-model
 use_math: true
