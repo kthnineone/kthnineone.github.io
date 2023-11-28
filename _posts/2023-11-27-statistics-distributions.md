@@ -50,7 +50,7 @@ use_math: true
 | 제타 분포 | Zeta Dist | $$equation$$  | $$equation$$ | - |
 | 라플라시안 분포 | Laplacian Dist | $$equation$$  | $$equation$$ | - |
 | 코시 분포 | Cauchy Dist | $$equation$$  | $$equation$$ | - |
-| 유니폼 분포 | Uniform Dist | $$\begin{cases} 0 for x < a\\ \frac{x-a}{b-a} for x \in [a, b]\\ 1 for x > b   \end{cases}$$  | $$\frac{1}{b-a}$$ for $$x \in \[a,b\]$$ | Unif($$a,b$$) |   
+| 유니폼 분포 | Uniform Dist | $$\begin{cases} 0\ for\ x\ <\ a\\ \frac{x-a}{b-a} for x \in [a, b]\\ 1 for x > b   \end{cases}$$  | $$\frac{1}{b-a}$$ for $$x \in [a,b]$$ | Unif($$a,b$$) |   
   
 {% endraw %}  
 
