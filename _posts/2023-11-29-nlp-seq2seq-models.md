@@ -9,7 +9,8 @@ use_math: true
 <h5> NLP Seq2Seq Models </h5>  
   
 아래의 세 가지 자료를 참고하여 주요 NLP Models를 정리해보려고 합니다.  
-
+  
+  
 <h6> 1. BERT and Related Models Map </h6> 
 
 ![Image Alt 텍스트]({{site.url}}/assets/images/seq2seq_BERT_related_Models.png )
