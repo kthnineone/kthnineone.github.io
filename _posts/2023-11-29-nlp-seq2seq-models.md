@@ -6,12 +6,14 @@ categories: NLP DeepLearning
 tags: nlp seq2seq pre-trained-model
 use_math: true
 ---
-<h5> NLP Seq2Seq Models </h5>  
+<h4> NLP Seq2Seq Models </h4>  
   
 아래의 세 가지 자료를 참고하여 주요 NLP Models를 정리해보려고 합니다.  
+<br> 
+<br>  
   
-  
-<h6> 1. BERT and Related Models Map </h6> 
+
+<h5> 1. BERT and Related Models Map </h5> 
 
 ![Image Alt 텍스트]({{site.url}}/assets/images/seq2seq_BERT_related_Models.png )
 <br>
@@ -49,7 +51,7 @@ BERT를 중심으로 연관된 여러 Sequence to Sequence Model의 관계도입
 <br>
 
 
-<h6> 2. Korean Pre-Trained seq2seq Models </h6> 
+<h5> 2. Korean Pre-Trained seq2seq Models </h5> 
 
 https://sooftware.io/korean-plm/
 <br>
@@ -73,7 +75,7 @@ https://sooftware.io/korean-plm/
 <br>
   
 
-<h6> 3. Recent Survey Paper </h6>  
+<h5> 3. Recent Survey Paper </h5>  
 Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey, Bonan Min et al, 2023.  
 
 + BERT
@@ -92,7 +94,7 @@ Recent Advances in Natural Language Processing via Large Pre-trained Language Mo
 <br>
   
 
-<h6> 4. 주요 모델들 </h6>  
+<h5> 4. 주요 모델들 </h5>  
   
 많이 겹치는 모델들을 정리하고 GPT-4를 추가해서 정리했습니다.  
   
