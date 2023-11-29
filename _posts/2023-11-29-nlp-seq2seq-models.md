@@ -96,25 +96,33 @@ Recent Advances in Natural Language Processing via Large Pre-trained Language Mo
 
 <h5> 4. 주요 모델들 </h5>  
   
-많이 겹치는 모델들을 정리하고 GPT-4를 추가해서 정리했습니다.  
-  
+많이 겹치는 모델들을 정리하고
+OpenAi의 GTP-3.5와 GPT-4와
+Google의 PaLM 1, 2, Minerva,
+Meta의 LLaMa-1과 2를 추가해서 정리했습니다.  
+
 + RNN
 + LSTM
-+ GRU
-+ Transformer
-+ ELMo
-+ BERT
-+ RoBERTa
-+ ALBERT
-+ BART
-+ ELECTRA
-+ T5
-+ GPT
-+ GPT-2
-+ GPT-3
-+ GPT-4
-+ XLNet
-
++ GRU (2014)
++ Transformer (2017)
++ ELMo (2018)
++ BERT (2018)
++ GPT (2018)
++ RoBERTa (2019)
++ ALBERT (2019)
++ BART (2019)
++ T5 (2019)
++ GPT-2 (2019)
++ XLNet (2019)
++ ELECTRA (2020)
++ GPT-3 (2020)
++ GPT-3.5 (2022)
++ PaLM (2022)
++ Minerva (2022)
++ GPT-4 (2023)
++ PaLM (2023)
++ LLaMA-1 (2023)
++ LLaMA-2 (2023)
 
 <br>
 이미지 출처: https://blog.hsutimes.com/2019/10/20/PLMpapers/
