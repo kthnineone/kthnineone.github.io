@@ -48,6 +48,7 @@ BERT를 중심으로 연관된 여러 Sequence to Sequence Model의 관계도입
 + UNITER
 + ERINE (Baidu)
 + BERT-wwm
+
 <br>
 
 
@@ -77,6 +78,7 @@ https://sooftware.io/korean-plm/
 
 <h5> 3. Recent Survey Paper </h5>  
 Recent Advances in Natural Language Processing via Large Pre-trained Language Models: A Survey, Bonan Min et al, 2023.  
+위 서베이 논문을 참고하여 적었습니다.  
 
 + BERT
 + RoBERTa
