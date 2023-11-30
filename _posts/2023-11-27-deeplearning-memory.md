@@ -35,14 +35,15 @@ Conv-1의 경우 11x11x3x96 = 34,848,
 ![Image Alt 텍스트]({{site.url}}/assets/images/Memory_requirements_2.PNG )
 
 AlexNet 같은 비교적 예전 모델의 경우 4 GB도 안되는 작은 용량이지만,  
-CoAtNet-7 같은 경우 약 45 GB가 넘어서 RTX 4090으로도 돌리기 힘들어지며,  
-GPT3 같은 거대한 모델의 경우 TB 단위라서 개인이 돌리기 힘들다.  
+CoAtNet-7 같은 경우 약 45 GB가 넘어서 RTX 3090이나 4090으로도 돌리기 힘들다.  
+GPT3 같은 거대한 모델의 경우 TB 단위라서 개인이 모델을 학습시키기 어렵다.  
 심지어 개인 워크스테이션으로 RTX A6000 D6 48 GB를 4개를 써도 불가능하다.  
 
 리소스가 충분한 개인이나 집단이 아니라면 거대 모델의 Pre-trained Model을 가져와서 Fine-Tuning하거나 Transfer Learning하는 작업이 필수적이다.
 <br>
 <br>
-##### 출처  
+
+###### 출처  
 패스트 캠퍼스의 [실무 사례로 배우는 컴퓨터 비전 논문 구현과 알고리즘 성능 최적화 With SOTA 모델](https://fastcampus.co.kr/data_online_sota) 강의를 듣고 정리한 내용입니다.
 <br>
 
