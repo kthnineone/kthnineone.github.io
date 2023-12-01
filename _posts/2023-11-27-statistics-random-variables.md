@@ -6,6 +6,12 @@ categories: Statistics
 tags: random-variable
 use_math: true
 ---
+### Probability Space and Random Variable  
+
+확률론의 기본이 되는 probability space와 random variable의 정의를 살펴본다.  
+
+<br>
+
 #### Outcome, Event, Experiment, Trial  
 
 <b>Outcome</b>은 가능한 사건이다.<br>
