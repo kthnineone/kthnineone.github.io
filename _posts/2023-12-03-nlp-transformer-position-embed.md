@@ -6,7 +6,7 @@ categories: NLP DeepLearning
 tags: nlp seq2seq embedding
 use_math: true
 ---
-<h4> Transformer Positional Embedding </h4>  
+<h3> Transformer Positional Embedding </h3>  
   
 Positional Embedding이란 tokens의 배열 순서를 반영하기 위한 embedding  
 

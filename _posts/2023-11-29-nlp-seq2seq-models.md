@@ -100,7 +100,7 @@ Recent Advances in Natural Language Processing via Large Pre-trained Language Mo
   
 많이 겹치는 모델들을 정리하고  
 OpenAi의 GTP-3.5와 GPT-4와  
-Google의 PaLM 1, 2, Minerva,  
+Google의 PaLM 1, 2, Bard, Minerva,  
 Meta의 LLaMa-1과 2를 추가해서 정리했습니다.  
 
 + RNN
@@ -122,6 +122,7 @@ Meta의 LLaMa-1과 2를 추가해서 정리했습니다.
 + PaLM (2022)
 + Minerva (2022)
 + GPT-4 (2023)
++ Bard (2023)
 + PaLM 2 (2023)
 + LLaMA-1 (2023)
 + LLaMA-2 (2023)
