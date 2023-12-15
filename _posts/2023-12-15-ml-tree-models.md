@@ -9,6 +9,7 @@ use_math: true
 <h3> Tree Models </h3>  
 
 Non-parametric supervised models다.  
+Classification과 Regression 두 가지 태스크에 쓰인다.  
 선형회귀나 딥러닝과 다르게 학습해야 할 파라미터가 없다.  
 
 <h4> Ensemble Tree Models </h4>  
